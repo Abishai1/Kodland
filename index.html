@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="w_100 header">
+        <div class="leftheader">
+            <p>Pop IT!</p>
+        </div>
+        <img src="assets/images/menu.png" id="click" alt="">
+        <div class="righheader" id="open">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        
+    </header>
+    <!--Bagian 1-->
+    <section class="section_1 w_100 banner_background">
+        <div class="w_50 h_100 banner_info">
+            <h1>POP IT!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ut, quasi id perferendis sint ducimus exercitationem, eaque omnis pariatur et doloribus eveniet? Voluptatibus odit excepturi labore mollitia? At, officiis magni.</p>
+            <button class="button_main">
+                <a href="#">Button</a>
+            </button>
+        </div>
+    </section>
+
+    <!--Bagian 2-->
+    <section class="w_100 section_2">
+            <h3>Why Take Pop It?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minima aperiam officiis sequi fuga at ea doloremque! Corrupti a vero quas reprehenderit necessitatibus, velit voluptas facere assumenda sequi reiciendis incidunt?</p>
+    </section>
+
+    <!--Bagian 3-->
+    <section class="w_100 min-50 section_3">
+        <h3>Lorem Ipsum</h3>
+        <div class="wrapper w_70">
+            <!--items 1-->
+            <div class="items">
+                <img class="itemsimage" src="assets/images/square.png" alt="">
+                <p>lorem ipsum</p>
+                <button class="button_secondary"><a href="#">learn more</a></button>
+            </div>
+            <!--items 2-->
+            <div class="items">
+                <img class="itemsimage" src="assets/images/amongus.png" alt="">
+                <p>lorem ipsum</p>
+                <button class="button_secondary"><a href="#">learn more</a></button>
+            </div>
+            <!--items 3-->
+            <div class="items">
+                <img class="itemsimage" src="assets/images/round.png" alt="">
+                <p>lorem ipsum</p>
+                <button class="button_secondary"><a href="#">learn more</a></button>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!--Bagian 4-->
+    <section class="section_4">
+        <div class="wrapper">
+            <div class="leftpart">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, excepturi eum accusantium in consequuntur impedit corrupti dolore voluptatem consectetur dolores soluta aperiam quia nisi inventore voluptatibus ea, consequatur dicta beatae!</p>
+            </div>
+            <div class="rightpart">
+                <img class="" src="assets/images/photo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer w_100">
+        <div class="leftheader">
+            <p>Pop IT!</p>
+        </div>
+        <div class="righheader">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+    </footer>
+
+    <script>
+        $( "#click" ).click(function() {
+          $( "#open" ).toggle( "fast", function() {
+            // Animation complete.
+          });
+        });
+    </script>
+</body>
+</html>
+
